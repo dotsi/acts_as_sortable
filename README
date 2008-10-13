@@ -1,0 +1,14 @@
+ActsAsSortable
+==============
+
+This is a simple plugin to create default sorting orders for Active 
+Record models.
+
+Example
+=======
+
+class Thing < ActiveRecord::Base
+  acts_as_sortable :name, :created_at
+end
+
+Copyright (c) 2008 Dave Pirotte, released under the MIT license

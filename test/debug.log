@@ -1,0 +1,444 @@
+# Logfile created on Sun Oct 12 21:28:53 -0400 2008 by /
+  [4;36;1mSQL (0.000360)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000253)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002568)[0m   [0;1mCREATE TABLE "things" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "sortable_string" varchar(255), "sortable_integer" integer, "sortable_datetime" datetime) [0m
+  [4;35;1mSQL (0.000308)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.001760)[0m   [0;1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [4;35;1mSQL (0.002226)[0m   [0mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [4;36;1mSQL (0.000627)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000194)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mSQL (0.002091)[0m   [0;1mINSERT INTO "schema_migrations" (version) VALUES ('0')[0m
+  [4;35;1mSQL (0.000394)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000306)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000452)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.012627)[0m   [0;1mDROP TABLE "things"[0m
+  [4;35;1mSQL (0.002453)[0m   [0mCREATE TABLE "things" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "sortable_string" varchar(255), "sortable_integer" integer, "sortable_datetime" datetime) [0m
+  [4;36;1mSQL (0.000586)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000234)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mSQL (0.000301)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.000301)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000455)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.013327)[0m   [0;1mDROP TABLE "things"[0m
+  [4;35;1mSQL (0.001964)[0m   [0mCREATE TABLE "things" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "sortable_string" varchar(255), "sortable_integer" integer, "sortable_datetime" datetime) [0m
+  [4;36;1mSQL (0.000372)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000235)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mSQL (0.000314)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000523)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.012462)[0m   [0;1mDROP TABLE "things"[0m
+  [4;35;1mSQL (0.001995)[0m   [0mCREATE TABLE "things" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "sortable_string" varchar(255), "sortable_integer" integer, "sortable_datetime" datetime) [0m
+  [4;36;1mSQL (0.000378)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000228)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mSQL (0.000306)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000500)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.013024)[0m   [0;1mDROP TABLE "things"[0m
+  [4;35;1mSQL (0.001636)[0m   [0mCREATE TABLE "things" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "sortable_string" varchar(255), "sortable_integer" integer, "sortable_datetime" datetime) [0m
+  [4;36;1mSQL (0.000579)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000400)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mSQL (0.000312)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000452)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.018539)[0m   [0;1mDROP TABLE "things"[0m
+  [4;35;1mSQL (0.001845)[0m   [0mCREATE TABLE "things" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "sortable_string" varchar(255), "sortable_integer" integer, "sortable_datetime" datetime) [0m
+  [4;36;1mSQL (0.000363)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000141)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mSQL (0.000299)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000442)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.012597)[0m   [0;1mDROP TABLE "things"[0m
+  [4;35;1mSQL (0.002146)[0m   [0mCREATE TABLE "things" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "sortable_string" varchar(255), "sortable_integer" integer, "sortable_datetime" datetime) [0m
+  [4;36;1mSQL (0.000639)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000242)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mSQL (0.000315)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000469)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.012897)[0m   [0;1mDROP TABLE "things"[0m
+  [4;35;1mSQL (0.002004)[0m   [0mCREATE TABLE "things" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "sortable_string" varchar(255), "sortable_integer" integer, "sortable_datetime" datetime) [0m
+  [4;36;1mSQL (0.000599)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000221)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mThing Create (0.000446)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 22:52:54')[0m
+  [4;35;1mThing Create (0.000543)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('b', 2, '2008-10-12 23:52:54')[0m
+  [4;36;1mThing Create (0.000562)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('c', 3, '2008-10-13 00:52:54')[0m
+  [4;36;1mSQL (0.000346)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000477)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.012729)[0m   [0;1mDROP TABLE "things"[0m
+  [4;35;1mSQL (0.002261)[0m   [0mCREATE TABLE "things" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "sortable_string" varchar(255), "sortable_integer" integer, "sortable_datetime" datetime) [0m
+  [4;36;1mSQL (0.000314)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000221)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mThing Create (0.000471)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 22:54:28')[0m
+  [4;35;1mThing Create (0.000524)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 2, '2008-10-12 22:54:28')[0m
+  [4;36;1mThing Create (0.001580)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('b', 2, '2008-10-12 23:54:28')[0m
+  [4;35;1mThing Create (0.000410)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('b', 3, '2008-10-13 00:54:28')[0m
+  [4;36;1mThing Create (0.000459)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('c', 2, '2008-10-12 23:54:28')[0m
+  [4;35;1mThing Create (0.000418)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('c', 3, '2008-10-13 00:54:28')[0m
+  [4;36;1mSQL (0.000323)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000475)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.012726)[0m   [0;1mDROP TABLE "things"[0m
+  [4;35;1mSQL (0.001948)[0m   [0mCREATE TABLE "things" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "sortable_string" varchar(255), "sortable_integer" integer, "sortable_datetime" datetime) [0m
+  [4;36;1mSQL (0.000346)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000239)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mThing Create (0.000449)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 22:54:38')[0m
+  [4;35;1mThing Create (0.000488)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 2, '2008-10-12 22:54:38')[0m
+  [4;36;1mThing Create (0.000618)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('b', 2, '2008-10-12 23:54:38')[0m
+  [4;35;1mThing Create (0.000558)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('b', 3, '2008-10-13 00:54:38')[0m
+  [4;36;1mThing Create (0.000427)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('c', 2, '2008-10-12 23:54:38')[0m
+  [4;35;1mThing Create (0.000660)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('c', 3, '2008-10-13 00:54:38')[0m
+  [4;36;1mSQL (0.000320)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000472)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.012816)[0m   [0;1mDROP TABLE "things"[0m
+  [4;35;1mSQL (0.001815)[0m   [0mCREATE TABLE "things" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "sortable_string" varchar(255), "sortable_integer" integer, "sortable_datetime" datetime) [0m
+  [4;36;1mSQL (0.000442)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000213)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mThing Create (0.000441)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 22:57:35')[0m
+  [4;35;1mThing Create (0.000544)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('b', 2, '2008-10-12 23:57:35')[0m
+  [4;36;1mThing Create (0.000469)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('c', 3, '2008-10-13 00:57:35')[0m
+  [4;36;1mSQL (0.000311)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000482)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.002032)[0m   [0;1mDROP TABLE "things"[0m
+  [4;35;1mSQL (0.002333)[0m   [0mCREATE TABLE "things" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "sortable_string" varchar(255), "sortable_integer" integer, "sortable_datetime" datetime) [0m
+  [4;36;1mSQL (0.000452)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000227)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mThing Create (0.000537)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 23:02:40')[0m
+  [4;35;1mThing Create (0.000457)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('b', 2, '2008-10-13 00:02:40')[0m
+  [4;36;1mThing Create (0.000631)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('c', 3, '2008-10-13 01:02:40')[0m
+  [4;36;1mSQL (0.000323)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000458)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.001966)[0m   [0;1mDROP TABLE "things"[0m
+  [4;35;1mSQL (0.002161)[0m   [0mCREATE TABLE "things" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "sortable_string" varchar(255), "sortable_integer" integer, "sortable_datetime" datetime) [0m
+  [4;36;1mSQL (0.000816)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000244)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mThing Create (0.000457)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 23:03:02')[0m
+  [4;35;1mThing Create (0.000484)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('b', 2, '2008-10-13 00:03:02')[0m
+  [4;36;1mThing Create (0.000502)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('c', 3, '2008-10-13 01:03:02')[0m
+  [4;36;1mSQL (0.000361)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000456)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.012849)[0m   [0;1mDROP TABLE "things"[0m
+  [4;35;1mSQL (0.002061)[0m   [0mCREATE TABLE "things" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "sortable_string" varchar(255), "sortable_integer" integer, "sortable_datetime" datetime) [0m
+  [4;36;1mSQL (0.000344)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000235)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mThing Create (0.000527)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 23:05:59')[0m
+  [4;35;1mThing Create (0.000366)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('b', 2, '2008-10-13 00:05:59')[0m
+  [4;36;1mThing Create (0.000274)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('c', 3, '2008-10-13 01:05:59')[0m
+  [4;36;1mSQL (0.000308)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000454)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.012360)[0m   [0;1mDROP TABLE "things"[0m
+  [4;35;1mSQL (0.002184)[0m   [0mCREATE TABLE "things" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "sortable_string" varchar(255), "sortable_integer" integer, "sortable_datetime" datetime) [0m
+  [4;36;1mSQL (0.000401)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000720)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mThing Create (0.000447)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 23:06:44')[0m
+  [4;35;1mThing Create (0.000418)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('b', 2, '2008-10-13 00:06:44')[0m
+  [4;36;1mThing Create (0.000623)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('c', 3, '2008-10-13 01:06:44')[0m
+  [4;36;1mSQL (0.000297)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000457)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.012423)[0m   [0;1mDROP TABLE "things"[0m
+  [4;35;1mSQL (0.002140)[0m   [0mCREATE TABLE "things" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "sortable_string" varchar(255), "sortable_integer" integer, "sortable_datetime" datetime) [0m
+  [4;36;1mSQL (0.000380)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000249)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mThing Create (0.000432)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 23:09:42')[0m
+  [4;35;1mThing Create (0.000523)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('b', 2, '2008-10-13 00:09:42')[0m
+  [4;36;1mThing Create (0.000586)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('c', 3, '2008-10-13 01:09:42')[0m
+  [4;36;1mSQL (0.000323)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000524)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.012779)[0m   [0;1mDROP TABLE "things"[0m
+  [4;35;1mSQL (0.001948)[0m   [0mCREATE TABLE "things" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "sortable_string" varchar(255), "sortable_integer" integer, "sortable_datetime" datetime) [0m
+  [4;36;1mSQL (0.000426)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000209)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mThing Create (0.000450)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 23:11:50')[0m
+  [4;35;1mThing Create (0.000509)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('b', 2, '2008-10-13 00:11:50')[0m
+  [4;36;1mThing Create (0.000570)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('c', 3, '2008-10-13 01:11:50')[0m
+  [4;35;1mThing Create (0.000381)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 23:11:50')[0m
+  [4;36;1mThing Create (0.000487)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 2, '2008-10-12 23:11:50')[0m
+  [4;35;1mThing Create (0.000475)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 3, '2008-10-12 23:11:50')[0m
+  [4;36;1mThing Create (0.000440)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 23:11:50')[0m
+  [4;35;1mThing Create (0.000443)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('b', 2, '2008-10-13 00:11:50')[0m
+  [4;36;1mThing Create (0.000455)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('c', 3, '2008-10-13 01:11:50')[0m
+  [4;35;1mThing Create (0.000418)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 23:11:50')[0m
+  [4;36;1mThing Create (0.000471)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 2, '2008-10-12 23:11:50')[0m
+  [4;35;1mThing Create (0.000432)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 3, '2008-10-12 23:11:50')[0m
+  [4;36;1mSQL (0.000319)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000477)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.012816)[0m   [0;1mDROP TABLE "things"[0m
+  [4;35;1mSQL (0.002389)[0m   [0mCREATE TABLE "things" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "sortable_string" varchar(255), "sortable_integer" integer, "sortable_datetime" datetime) [0m
+  [4;36;1mSQL (0.000581)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000235)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mThing Create (0.000486)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 23:12:11')[0m
+  [4;35;1mThing Create (0.000566)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('b', 2, '2008-10-13 00:12:11')[0m
+  [4;36;1mThing Create (0.001339)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('c', 3, '2008-10-13 01:12:11')[0m
+  [4;35;1mThing Create (0.000454)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 23:12:11')[0m
+  [4;36;1mThing Create (0.000439)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 2, '2008-10-12 23:12:11')[0m
+  [4;35;1mThing Create (0.000418)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 3, '2008-10-12 23:12:11')[0m
+  [4;36;1mThing Create (0.000519)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 23:12:11')[0m
+  [4;35;1mThing Create (0.000493)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('b', 2, '2008-10-13 00:12:11')[0m
+  [4;36;1mThing Create (0.000311)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('c', 3, '2008-10-13 01:12:11')[0m
+  [4;35;1mThing Create (0.000453)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 23:12:11')[0m
+  [4;36;1mThing Create (0.000477)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 2, '2008-10-12 23:12:11')[0m
+  [4;35;1mThing Create (0.000511)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 3, '2008-10-12 23:12:11')[0m
+  [4;36;1mSQL (0.000313)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000476)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.013235)[0m   [0;1mDROP TABLE "things"[0m
+  [4;35;1mSQL (0.002179)[0m   [0mCREATE TABLE "things" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "sortable_string" varchar(255), "sortable_integer" integer, "sortable_datetime" datetime) [0m
+  [4;36;1mSQL (0.000424)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000233)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mThing Create (0.000451)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 23:13:16')[0m
+  [4;35;1mThing Create (0.000454)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('b', 2, '2008-10-13 00:13:16')[0m
+  [4;36;1mThing Create (0.000554)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('c', 3, '2008-10-13 01:13:16')[0m
+  [4;35;1mThing Create (0.000420)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 23:13:16')[0m
+  [4;36;1mThing Create (0.000374)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 2, '2008-10-12 23:13:16')[0m
+  [4;35;1mThing Create (0.000447)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 3, '2008-10-12 23:13:16')[0m
+  [4;36;1mThing Create (0.000488)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 23:13:16')[0m
+  [4;35;1mThing Create (0.000501)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-13 00:13:16')[0m
+  [4;36;1mThing Create (0.000369)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-13 01:13:16')[0m
+  [4;35;1mThing Create (0.000515)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 23:13:16')[0m
+  [4;36;1mThing Create (0.000443)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('b', 2, '2008-10-13 00:13:16')[0m
+  [4;35;1mThing Create (0.000490)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('c', 3, '2008-10-13 01:13:16')[0m
+  [4;36;1mThing Create (0.000459)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 23:13:16')[0m
+  [4;35;1mThing Create (0.000460)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 2, '2008-10-12 23:13:16')[0m
+  [4;36;1mThing Create (0.000453)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 3, '2008-10-12 23:13:16')[0m
+  [4;35;1mThing Create (0.000525)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 23:13:16')[0m
+  [4;36;1mThing Create (0.000438)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-13 00:13:16')[0m
+  [4;35;1mThing Create (0.000541)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-13 01:13:16')[0m
+  [4;36;1mThing Create (0.000461)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 23:13:16')[0m
+  [4;35;1mThing Create (0.000479)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('b', 2, '2008-10-13 00:13:16')[0m
+  [4;36;1mThing Create (0.000415)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('c', 3, '2008-10-13 01:13:16')[0m
+  [4;35;1mThing Create (0.001028)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 23:13:16')[0m
+  [4;36;1mThing Create (0.000479)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 2, '2008-10-12 23:13:16')[0m
+  [4;35;1mThing Create (0.000490)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 3, '2008-10-12 23:13:16')[0m
+  [4;36;1mThing Create (0.000485)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 23:13:16')[0m
+  [4;35;1mThing Create (0.000557)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-13 00:13:16')[0m
+  [4;36;1mThing Create (0.000406)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-13 01:13:16')[0m
+  [4;36;1mSQL (0.000307)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000612)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.012954)[0m   [0;1mDROP TABLE "things"[0m
+  [4;35;1mSQL (0.002070)[0m   [0mCREATE TABLE "things" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "sortable_string" varchar(255), "sortable_integer" integer, "sortable_datetime" datetime) [0m
+  [4;36;1mSQL (0.000379)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000246)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mThing Create (0.000494)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 23:13:58')[0m
+  [4;35;1mThing Create (0.000448)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('b', 2, '2008-10-13 00:13:58')[0m
+  [4;36;1mThing Create (0.000668)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('c', 3, '2008-10-13 01:13:58')[0m
+  [4;35;1mThing Create (0.000485)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 23:13:58')[0m
+  [4;36;1mThing Create (0.000303)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 2, '2008-10-12 23:13:58')[0m
+  [4;35;1mThing Create (0.000282)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 3, '2008-10-12 23:13:58')[0m
+  [4;36;1mThing Create (0.000486)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 23:13:58')[0m
+  [4;35;1mThing Create (0.000358)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-13 00:13:58')[0m
+  [4;36;1mThing Create (0.000298)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-13 01:13:58')[0m
+  [4;35;1mThing Create (0.001175)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 23:13:58')[0m
+  [4;36;1mThing Create (0.000506)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('b', 2, '2008-10-13 00:13:58')[0m
+  [4;35;1mThing Create (0.000475)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('c', 3, '2008-10-13 01:13:58')[0m
+  [4;36;1mThing Create (0.000498)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 23:13:58')[0m
+  [4;35;1mThing Create (0.000528)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 2, '2008-10-12 23:13:58')[0m
+  [4;36;1mThing Create (0.000545)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 3, '2008-10-12 23:13:58')[0m
+  [4;35;1mThing Create (0.000445)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 23:13:58')[0m
+  [4;36;1mThing Create (0.000461)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-13 00:13:58')[0m
+  [4;35;1mThing Create (0.000423)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-13 01:13:58')[0m
+  [4;36;1mThing Create (0.000420)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 23:13:58')[0m
+  [4;35;1mThing Create (0.000433)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('b', 2, '2008-10-13 00:13:58')[0m
+  [4;36;1mThing Create (0.000458)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('c', 3, '2008-10-13 01:13:58')[0m
+  [4;35;1mThing Create (0.000401)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 23:13:58')[0m
+  [4;36;1mThing Create (0.000392)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 2, '2008-10-12 23:13:58')[0m
+  [4;35;1mThing Create (0.000494)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 3, '2008-10-12 23:13:58')[0m
+  [4;36;1mThing Create (0.000461)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 23:13:58')[0m
+  [4;35;1mThing Create (0.000811)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-13 00:13:58')[0m
+  [4;36;1mThing Create (0.000422)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-13 01:13:58')[0m
+  [4;36;1mSQL (0.000313)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000459)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.066247)[0m   [0;1mDROP TABLE "things"[0m
+  [4;35;1mSQL (0.002374)[0m   [0mCREATE TABLE "things" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "sortable_string" varchar(255), "sortable_integer" integer, "sortable_datetime" datetime) [0m
+  [4;36;1mSQL (0.000532)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000236)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mThing Create (0.000493)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 23:15:42')[0m
+  [4;35;1mThing Create (0.000491)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('b', 2, '2008-10-13 00:15:42')[0m
+  [4;36;1mThing Create (0.000605)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('c', 3, '2008-10-13 01:15:42')[0m
+  [4;35;1mThing Create (0.000426)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 23:15:42')[0m
+  [4;36;1mThing Create (0.000284)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 2, '2008-10-12 23:15:42')[0m
+  [4;35;1mThing Create (0.000451)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 3, '2008-10-12 23:15:42')[0m
+  [4;36;1mThing Create (0.000451)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 23:15:42')[0m
+  [4;35;1mThing Create (0.000436)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-13 00:15:42')[0m
+  [4;36;1mThing Create (0.000647)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-13 01:15:42')[0m
+  [4;35;1mThing Create (0.000339)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 23:15:42')[0m
+  [4;36;1mThing Create (0.000494)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('b', 2, '2008-10-13 00:15:42')[0m
+  [4;35;1mThing Create (0.000417)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('c', 3, '2008-10-13 01:15:42')[0m
+  [4;36;1mThing Create (0.000396)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 23:15:42')[0m
+  [4;35;1mThing Create (0.000509)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 2, '2008-10-12 23:15:42')[0m
+  [4;36;1mThing Create (0.000509)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 3, '2008-10-12 23:15:42')[0m
+  [4;35;1mThing Create (0.000505)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 23:15:42')[0m
+  [4;36;1mThing Create (0.000418)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-13 00:15:42')[0m
+  [4;35;1mThing Create (0.000462)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-13 01:15:42')[0m
+  [4;36;1mThing Create (0.000498)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 23:15:42')[0m
+  [4;35;1mThing Create (0.000410)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('b', 2, '2008-10-13 00:15:42')[0m
+  [4;36;1mThing Create (0.000437)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('c', 3, '2008-10-13 01:15:42')[0m
+  [4;35;1mThing Create (0.000488)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 23:15:42')[0m
+  [4;36;1mThing Create (0.000443)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 2, '2008-10-12 23:15:42')[0m
+  [4;35;1mThing Create (0.000409)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 3, '2008-10-12 23:15:42')[0m
+  [4;36;1mThing Create (0.000469)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 23:15:42')[0m
+  [4;35;1mThing Create (0.000491)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-13 00:15:42')[0m
+  [4;36;1mThing Create (0.000483)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-13 01:15:42')[0m
+  [4;36;1mSQL (0.000318)[0m   [0;1mselect sqlite_version(*)[0m
+  [4;35;1mSQL (0.000450)[0m   [0m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;36;1mSQL (0.012495)[0m   [0;1mDROP TABLE "things"[0m
+  [4;35;1mSQL (0.002203)[0m   [0mCREATE TABLE "things" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "sortable_string" varchar(255), "sortable_integer" integer, "sortable_datetime" datetime) [0m
+  [4;36;1mSQL (0.000362)[0m   [0;1m SELECT name
+ FROM sqlite_master
+ WHERE type = 'table' AND NOT name = 'sqlite_sequence'
+[0m
+  [4;35;1mSQL (0.000239)[0m   [0mSELECT version FROM "schema_migrations"[0m
+  [4;36;1mThing Create (0.000551)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 23:20:15')[0m
+  [4;35;1mThing Create (0.000285)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('b', 2, '2008-10-13 00:20:15')[0m
+  [4;36;1mThing Create (0.000270)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('c', 3, '2008-10-13 01:20:15')[0m
+  [4;35;1mThing Create (0.000519)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 23:20:15')[0m
+  [4;36;1mThing Create (0.000305)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 2, '2008-10-12 23:20:15')[0m
+  [4;35;1mThing Create (0.000277)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 3, '2008-10-12 23:20:15')[0m
+  [4;36;1mThing Create (0.000306)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 23:20:15')[0m
+  [4;35;1mThing Create (0.000340)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-13 00:20:15')[0m
+  [4;36;1mThing Create (0.000354)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-13 01:20:15')[0m
+  [4;35;1mThing Create (0.000298)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 23:20:16')[0m
+  [4;36;1mThing Create (0.000472)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('b', 2, '2008-10-13 00:20:16')[0m
+  [4;35;1mThing Create (0.000457)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('c', 3, '2008-10-13 01:20:16')[0m
+  [4;36;1mThing Create (0.000437)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 23:20:16')[0m
+  [4;35;1mThing Create (0.000451)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 2, '2008-10-12 23:20:16')[0m
+  [4;36;1mThing Create (0.000509)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 3, '2008-10-12 23:20:16')[0m
+  [4;35;1mThing Create (0.000445)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 23:20:16')[0m
+  [4;36;1mThing Create (0.000513)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-13 00:20:16')[0m
+  [4;35;1mThing Create (0.000317)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-13 01:20:16')[0m
+  [4;36;1mThing Create (0.000469)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 23:20:16')[0m
+  [4;35;1mThing Create (0.000557)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('b', 2, '2008-10-13 00:20:16')[0m
+  [4;36;1mThing Create (0.000432)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('c', 3, '2008-10-13 01:20:16')[0m
+  [4;35;1mThing Create (0.000388)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 23:20:16')[0m
+  [4;36;1mThing Create (0.000494)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 2, '2008-10-12 23:20:16')[0m
+  [4;35;1mThing Create (0.000455)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 3, '2008-10-12 23:20:16')[0m
+  [4;36;1mThing Create (0.000544)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-12 23:20:16')[0m
+  [4;35;1mThing Create (0.000452)[0m   [0mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-13 00:20:16')[0m
+  [4;36;1mThing Create (0.000452)[0m   [0;1mINSERT INTO "things" ("sortable_string", "sortable_integer", "sortable_datetime") VALUES('a', 1, '2008-10-13 01:20:16')[0m
