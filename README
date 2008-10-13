@@ -1,8 +1,11 @@
 ActsAsSortable
 ==============
 
-This is a simple plugin to create default sorting orders for Active 
-Record models.
+This is a simple plugin to create default sorting orders for arrays
+of ActiveRecord objects.
+
+This plugin is pretty stupid, given the existence of sort_by, but
+I'd never written a plugin before and felt like giving it a go.
 
 Example
 =======
@@ -10,5 +13,9 @@ Example
 class Thing < ActiveRecord::Base
   acts_as_sortable :name, :created_at
 end
+
+# Now you get...
+Thing.all.sort == Thing.all.sort_by { |t| [t.name, t.created_at] }
+
 
 Copyright (c) 2008 Dave Pirotte, released under the MIT license
